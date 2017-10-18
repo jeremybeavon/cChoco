@@ -15,7 +15,7 @@
         }
     }
 } 
-
+# Test comment
 $config = InstallChoco
 
 Start-DscConfiguration -Path $config.psparentpath -Wait -Verbose -Force
